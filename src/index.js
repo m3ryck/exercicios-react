@@ -4,18 +4,23 @@ import React from 'react'
 // import {CompA,CompB as B} from './componentes/DoisComponentes'
 // import MultiElementos from './componentes/MultiElementos'
 // import FamiliaSilva from './componentes/FamiliaSilva'
-import Familia from './componentes/Familia'
-import Membro from './componentes/Membro'
+// import Familia from './componentes/Familia'
+// import Membro from './componentes/Membro'
+// import ComponenteComFuncao from './componentes/ComponenteComFuncao'
+import Pai from './componentes/Pai'
+
 
 const elemento = document.getElementById('root')
 // ReactDOM.render(<h1>ola react</h1>,elemento)
 
 ReactDOM.render(
     <div>
-        <Familia  sobrenome ='silva' numero ={123}>
+        {<Pai/>}
+        {/* <ComponenteComFuncao/> */}
+        {/* <Familia  sobrenome ='silva' numero ={123}>
             <Membro nome = 'Andre'/>
             <Membro nome = 'Mariana'/>
-        </Familia>
+        </Familia> */}
         {/* <FamiliaSilva/> */}
         {/* <Familia>
             <Membro nome = 'Adriano' sobrenome ='brito'/>
