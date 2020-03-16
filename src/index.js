@@ -8,15 +8,15 @@ import React from 'react'
 // import Membro from './componentes/Membro'
 // import ComponenteComFuncao from './componentes/ComponenteComFuncao'
 // import Pai from './componentes/Pai'
-import ComponenteClasse from './componentes/ComponenteClasse'
-
+// import ComponenteClasse from './componentes/ComponenteClasse'
+import Contador from './componentes/Contador'
 
 const elemento = document.getElementById('root')
-// ReactDOM.render(<h1>ola react</h1>,elemento)
 
 ReactDOM.render(
     <div>
-        {<ComponenteClasse valor = ""/>}
+        {<Contador numeroInicial = {20}/>}
+        {/* {<ComponenteClasse valor=""/>} */}
         {/* {<Pai/>} */}
         {/* <ComponenteComFuncao/> */}
         {/* <Familia  sobrenome ='silva' numero ={123}>
