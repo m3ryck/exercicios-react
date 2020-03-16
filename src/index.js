@@ -12,11 +12,11 @@ const elemento = document.getElementById('root')
 
 ReactDOM.render(
     <div>
-        <Familia  sobrenome ='Pereira'>
+        <Familia  sobrenome ='silva' numero ={123}>
             <Membro nome = 'Andre'/>
-            <Membro nome = 'Mariana'/>
+            {/* <Membro nome = 'Mariana'/> */}
         </Familia>
-
+        {/* <FamiliaSilva/> */}
         {/* <Familia>
             <Membro nome = 'Adriano' sobrenome ='brito'/>
             <Membro nome = 'Mari' sobrenome = 'brito'/>
