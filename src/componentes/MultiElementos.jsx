@@ -4,7 +4,7 @@ import React from 'react'
 //Uma DIV a menos é apresentada no HTML
 //Array de elementos
 export default props =>[
-        <h1>Parte 1</h1>,
+        <h1>Parte 3</h1>,
         <h2>Parte 2</h2>
 ]
 
